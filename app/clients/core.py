@@ -53,4 +53,4 @@ class ClientHTTP:
         return sso_login(self, doc, password)
 
 
-client = Client()
+client = Client()  # global client
